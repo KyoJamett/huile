@@ -4,7 +4,7 @@ export const Article = () => {
       <div className="container">
         <div className="row g-5">
           <div className="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
-            {/* <img className="img-fluid" src="img/article.jpg" alt=""> */}
+            <img className="img-fluid" src="img/article.jpg" alt="" />
           </div>
           <div className="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
             <div className="section-title">

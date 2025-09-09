@@ -19,7 +19,11 @@ export const Testimonial = () => {
             ipsum et lorem et sit, sed stet lorem sit clita duo justo
           </p>
           <div class="d-flex align-items-center justify-content-center">
-            {/* <img class="img-fluid flex-shrink-0" src="img/testimonial-1.jpg" alt=""> */}
+            <img
+              class="img-fluid flex-shrink-0"
+              src="img/testimonial-1.jpg"
+              alt=""
+            />
             <div class="text-start ms-3">
               <h5>Client Name</h5>
               <span class="text-primary">Profession</span>
@@ -32,7 +36,11 @@ export const Testimonial = () => {
             ipsum et lorem et sit, sed stet lorem sit clita duo justo
           </p>
           <div class="d-flex align-items-center justify-content-center">
-            {/* <img class="img-fluid flex-shrink-0" src="img/testimonial-2.jpg" alt=""> */}
+            <img
+              class="img-fluid flex-shrink-0"
+              src="img/testimonial-2.jpg"
+              alt=""
+            />
             <div class="text-start ms-3">
               <h5>Client Name</h5>
               <span class="text-primary">Profession</span>
@@ -45,7 +53,11 @@ export const Testimonial = () => {
             ipsum et lorem et sit, sed stet lorem sit clita duo justo
           </p>
           <div class="d-flex align-items-center justify-content-center">
-            {/* <img class="img-fluid flex-shrink-0" src="img/testimonial-3.jpg" alt=""> */}
+            <img
+              class="img-fluid flex-shrink-0"
+              src="img/testimonial-3.jpg"
+              alt=""
+            />
             <div class="text-start ms-3">
               <h5>Client Name</h5>
               <span class="text-primary">Profession</span>

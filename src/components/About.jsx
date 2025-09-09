@@ -6,12 +6,32 @@ export const About = () => {
           <div className="col-lg-6">
             <div className="row g-3">
               <div className="col-6 text-end">
-                {/* <img className="img-fluid bg-white w-100 mb-3 wow fadeIn" data-wow-delay="0.1s" src="img/about-1.jpg" alt=""> */}
-                {/* <img className="img-fluid bg-white w-50 wow fadeIn" data-wow-delay="0.2s" src="img/about-3.jpg" alt=""> */}
+                <img
+                  className="img-fluid bg-white w-100 mb-3 wow fadeIn"
+                  data-wow-delay="0.1s"
+                  src="img/about-1.jpg"
+                  alt=""
+                />
+                <img
+                  className="img-fluid bg-white w-50 wow fadeIn"
+                  data-wow-delay="0.2s"
+                  src="img/about-3.jpg"
+                  alt=""
+                />
               </div>
               <div className="col-6">
-                {/* <img className="img-fluid bg-white w-50 mb-3 wow fadeIn" data-wow-delay="0.3s" src="img/about-4.jpg" alt=""> */}
-                {/* <img className="img-fluid bg-white w-100 wow fadeIn" data-wow-delay="0.4s" src="img/about-2.jpg" alt=""> */}
+                <img
+                  className="img-fluid bg-white w-50 mb-3 wow fadeIn"
+                  data-wow-delay="0.3s"
+                  src="img/about-4.jpg"
+                  alt=""
+                />
+                <img
+                  className="img-fluid bg-white w-100 wow fadeIn"
+                  data-wow-delay="0.4s"
+                  src="img/about-2.jpg"
+                  alt=""
+                />
               </div>
             </div>
           </div>
@@ -24,7 +44,11 @@ export const About = () => {
             </div>
             <div className="row g-3 mb-4">
               <div className="col-sm-4">
-                {/* <img className="img-fluid bg-white w-100" src="img/about-5.jpg" alt=""> */}
+                <img
+                  className="img-fluid bg-white w-100"
+                  src="img/about-5.jpg"
+                  alt=""
+                />
               </div>
               <div className="col-sm-8">
                 <h5>Our tea is one of the most popular drinks in the world</h5>
@@ -44,7 +68,11 @@ export const About = () => {
                 </p>
               </div>
               <div className="col-sm-4">
-                {/* <img className="img-fluid bg-white w-100" src="img/about-6.jpg" alt=""> */}
+                <img
+                  className="img-fluid bg-white w-100"
+                  src="img/about-6.jpg"
+                  alt=""
+                />
               </div>
             </div>
           </div>

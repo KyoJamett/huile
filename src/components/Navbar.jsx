@@ -4,7 +4,7 @@ export const Navbar = () => {
       <div className="container">
         <nav className="navbar navbar-expand-lg bg-white navbar-light py-2 py-lg-0">
           <a href="index.html" className="navbar-brand">
-            {/* <img className="img-fluid" src="img/logo.png" alt="Logo"> */}
+            <img className="img-fluid" src="img/logo.png" alt="Logo" />
           </a>
           <button
             type="button"

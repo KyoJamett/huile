@@ -13,7 +13,7 @@ export const Store = () => {
         <div className="row g-4">
           <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
             <div className="store-item position-relative text-center">
-              {/* <img className="img-fluid" src="img/store-product-1.jpg" alt=""> */}
+              <img className="img-fluid" src="img/store-product-1.jpg" alt="" />
               <div className="p-4">
                 <div className="text-center mb-3">
                   <small className="fa fa-star text-primary"></small>
@@ -44,7 +44,7 @@ export const Store = () => {
           </div>
           <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
             <div className="store-item position-relative text-center">
-              {/* <img className="img-fluid" src="img/store-product-2.jpg" alt=""> */}
+              <img className="img-fluid" src="img/store-product-2.jpg" alt="" />
               <div className="p-4">
                 <div className="text-center mb-3">
                   <small className="fa fa-star text-primary"></small>
@@ -75,7 +75,7 @@ export const Store = () => {
           </div>
           <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
             <div className="store-item position-relative text-center">
-              {/* <img className="img-fluid" src="img/store-product-3.jpg" alt=""> */}
+              <img className="img-fluid" src="img/store-product-3.jpg" alt="" />
               <div className="p-4">
                 <div className="text-center mb-3">
                   <small className="fa fa-star text-primary"></small>
