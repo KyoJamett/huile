@@ -17,7 +17,7 @@ export const Products = () => {
           data-wow-delay="0.5s"
         >
           <a href="" className="d-block product-item rounded">
-            {/* <img src="img/product-1.jpg" alt=""> */}
+            <img src="img/product-1.jpg" alt="" />
             <div className="bg-white shadow-sm text-center p-4 position-relative mt-n5 mx-4">
               <h4 className="text-primary">Green Tea</h4>
               <span className="text-body">
@@ -27,7 +27,7 @@ export const Products = () => {
             </div>
           </a>
           <a href="" className="d-block product-item rounded">
-            {/* <img src="img/product-2.jpg" alt=""> */}
+            <img src="img/product-2.jpg" alt="" />
             <div className="bg-white shadow-sm text-center p-4 position-relative mt-n5 mx-4">
               <h4 className="text-primary">Black Tea</h4>
               <span className="text-body">
@@ -37,7 +37,7 @@ export const Products = () => {
             </div>
           </a>
           <a href="" className="d-block product-item rounded">
-            {/* <img src="img/product-3.jpg" alt=""> */}
+            <img src="img/product-3.jpg" alt="" />
             <div className="bg-white shadow-sm text-center p-4 position-relative mt-n5 mx-4">
               <h4 className="text-primary">Spiced Tea</h4>
               <span className="text-body">
@@ -47,7 +47,7 @@ export const Products = () => {
             </div>
           </a>
           <a href="" className="d-block product-item rounded">
-            {/* <img src="img/product-4.jpg" alt=""> */}
+            <img src="img/product-4.jpg" alt="" />
             <div className="bg-white shadow-sm text-center p-4 position-relative mt-n5 mx-4">
               <h4 className="text-primary">Organic Tea</h4>
               <span className="text-body">
