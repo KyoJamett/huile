@@ -4,7 +4,7 @@ export const Testimonial = () => {
       <div
         class="section-title text-center mx-auto wow fadeInUp"
         data-wow-delay="0.1s"
-        style="max-width: 500px;"
+        style={{ maxWidth: "500px" }}
       >
         <p class="fs-5 fw-medium fst-italic text-white">Testimonial</p>
         <h1 class="display-6">What our clients say about our tea</h1>

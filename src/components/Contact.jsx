@@ -5,7 +5,7 @@ export const Contact = () => {
         <div
           className="section-title text-center mx-auto wow fadeInUp"
           data-wow-delay="0.1s"
-          // style="max-width: 500px;"
+          style={{ maxWidth: "500px" }}
         >
           <p className="fs-5 fw-medium fst-italic text-primary">Contact Us</p>
           <h1 className="display-6">Contact us right now</h1>

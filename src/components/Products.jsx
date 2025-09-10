@@ -5,7 +5,7 @@ export const Products = () => {
         <div
           className="section-title text-center mx-auto wow fadeInUp"
           data-wow-delay="0.1s"
-          // style="max-width: 500px;" comentado por error: react-dom_client.js?v=c5276a87:2236 Uncaught Error: The `style` prop expects a mapping from style properties to values, not a string. For example, style={{marginRight: spacing + 'em'}} when using JSX.
+          style={{ maxWidth: "500px" }}
         >
           <p className="fs-5 fw-medium fst-italic text-primary">Our Products</p>
           <h1 className="display-6">
