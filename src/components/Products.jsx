@@ -3,8 +3,9 @@ export const Products = () => {
     <div className="container-fluid product py-5 my-5">
       <div className="container py-5">
         <div
-          className="section-title text-center mx-auto wow fadeInUp"
-          data-wow-delay="0.1s"
+          className="section-title text-center mx-auto"
+          data-aos="fade-up"
+          data-aos-delay="100"
           style={{ maxWidth: "500px" }}
         >
           <p className="fs-5 fw-medium fst-italic text-primary">Our Products</p>
@@ -13,8 +14,9 @@ export const Products = () => {
           </h1>
         </div>
         <div
-          className="owl-carousel product-carousel wow fadeInUp"
-          data-wow-delay="0.5s"
+          className="owl-carousel product-carousel"
+          data-aos="fade-up"
+          data-aos-delay="500"
         >
           <a href="" className="d-block product-item rounded">
             <img src="img/product-1.jpg" alt="" />

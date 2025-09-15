@@ -3,7 +3,7 @@ export const Video = () => {
     <div className="container-fluid video my-5">
       <div className="container">
         <div className="row g-0">
-          <div className="col-lg-6 py-5 wow fadeIn" data-wow-delay="0.1s">
+          <div className="col-lg-6 py-5" data-aos="fade" data-aos-delay="100">
             <div className="py-5">
               <h1 className="display-6 mb-4">
                 Tea is a drink of <span className="text-white">health</span> and{" "}
@@ -52,7 +52,7 @@ export const Video = () => {
               </a>
             </div>
           </div>
-          <div className="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+          <div className="col-lg-6" data-aos="fade" data-aos-delay="500">
             <div
               className="h-100 d-flex align-items-center justify-content-center"
               style={{ minHeight: "300px" }}

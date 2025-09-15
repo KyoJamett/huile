@@ -3,15 +3,20 @@ export const Store = () => {
     <div className="container-xxl py-5">
       <div className="container">
         <div
-          className="section-title text-center mx-auto wow fadeInUp"
-          data-wow-delay="0.1s"
+          className="section-title text-center mx-auto"
+          data-aos="fade-up"
+          data-aos-delay="100"
           style={{ maxWidth: "500px" }}
         >
           <p className="fs-5 fw-medium fst-italic text-primary">Online Store</p>
           <h1 className="display-6">Want to stay healthy? Choose tea taste</h1>
         </div>
         <div className="row g-4">
-          <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+          <div
+            className="col-lg-4 col-md-6"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
             <div className="store-item position-relative text-center">
               <img className="img-fluid" src="img/store-product-1.jpg" alt="" />
               <div className="p-4">
@@ -42,7 +47,11 @@ export const Store = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+          <div
+            className="col-lg-4 col-md-6"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
             <div className="store-item position-relative text-center">
               <img className="img-fluid" src="img/store-product-2.jpg" alt="" />
               <div className="p-4">
@@ -73,7 +82,11 @@ export const Store = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+          <div
+            className="col-lg-4 col-md-6"
+            data-aos="fade-up"
+            data-aos-delay="500"
+          >
             <div className="store-item position-relative text-center">
               <img className="img-fluid" src="img/store-product-3.jpg" alt="" />
               <div className="p-4">
@@ -105,8 +118,9 @@ export const Store = () => {
             </div>
           </div>
           <div
-            className="col-12 text-center wow fadeInUp"
-            data-wow-delay="0.1s"
+            className="col-12 text-center"
+            data-aos="fade-up"
+            data-aos-delay="100"
           >
             <a href="" className="btn btn-primary rounded-pill py-3 px-5">
               View More Products

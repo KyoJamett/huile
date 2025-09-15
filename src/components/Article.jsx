@@ -3,10 +3,10 @@ export const Article = () => {
     <div className="container-xxl py-5">
       <div className="container">
         <div className="row g-5">
-          <div className="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
+          <div className="col-lg-5" data-aos="fade" data-aos-delay="100">
             <img className="img-fluid" src="img/article.jpg" alt="" />
           </div>
-          <div className="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+          <div className="col-lg-6" data-aos="fade" data-aos-delay="500">
             <div className="section-title">
               <p className="fs-5 fw-medium fst-italic text-primary">
                 Featured Acticle

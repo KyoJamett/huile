@@ -2,16 +2,18 @@ export const Testimonial = () => {
   <div class="container-fluid testimonial py-5 my-5">
     <div class="container py-5">
       <div
-        class="section-title text-center mx-auto wow fadeInUp"
-        data-wow-delay="0.1s"
+        class="section-title text-center mx-auto"
+        data-aos="fade-up"
+        data-aos-delay="100"
         style={{ maxWidth: "500px" }}
       >
         <p class="fs-5 fw-medium fst-italic text-white">Testimonial</p>
         <h1 class="display-6">What our clients say about our tea</h1>
       </div>
       <div
-        class="owl-carousel testimonial-carousel wow fadeInUp"
-        data-wow-delay="0.5s"
+        class="owl-carousel testimonial-carousel"
+        data-aos="fade-up"
+        data-aos-delay="500"
       >
         <div class="testimonial-item p-4 p-lg-5">
           <p class="mb-4">

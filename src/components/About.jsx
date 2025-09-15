@@ -7,35 +7,39 @@ export const About = () => {
             <div className="row g-3">
               <div className="col-6 text-end">
                 <img
-                  className="img-fluid bg-white w-100 mb-3 wow fadeIn"
-                  data-wow-delay="0.1s"
+                  className="img-fluid bg-white w-100"
+                  data-aos="fade"
+                  data-aos-delay="100"
                   src="img/about-1.jpg"
                   alt=""
                 />
                 <img
-                  className="img-fluid bg-white w-50 wow fadeIn"
-                  data-wow-delay="0.2s"
+                  className="img-fluid bg-white w-50"
+                  data-aos="fade"
+                  data-aos-delay="200"
                   src="img/about-3.jpg"
                   alt=""
                 />
               </div>
               <div className="col-6">
                 <img
-                  className="img-fluid bg-white w-50 mb-3 wow fadeIn"
-                  data-wow-delay="0.3s"
+                  className="img-fluid bg-white w-50 mb-3"
+                  data-aos="fade"
+                  data-aos-delay="300"
                   src="img/about-4.jpg"
                   alt=""
                 />
                 <img
-                  className="img-fluid bg-white w-100 wow fadeIn"
-                  data-wow-delay="0.4s"
+                  className="img-fluid bg-white w-100"
+                  data-aos="fade"
+                  data-aos-delay="400"
                   src="img/about-2.jpg"
                   alt=""
                 />
               </div>
             </div>
           </div>
-          <div className="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+          <div className="col-lg-6" data-aos="fade" data-aos-delay="500">
             <div className="section-title">
               <p className="fs-5 fw-medium fst-italic text-primary">About Us</p>
               <h1 className="display-6">

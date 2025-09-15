@@ -1,8 +1,9 @@
 export const Footer = () => {
   return (
     <div
-      className="container-fluid bg-dark footer mt-5 py-5 wow fadeIn"
-      data-wow-delay="0.1s"
+      className="container-fluid bg-dark footer mt-5 py-5"
+      data-aos="fade"
+      data-aos-delay="100"
     >
       <div className="container py-5">
         <div className="row g-5">
