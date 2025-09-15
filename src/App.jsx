@@ -21,22 +21,37 @@ function App() {
     <>
       <Navbar />
       <hr></hr>
+      <h2>Carousel</h2>
       <Carousel />
+      <h2>Fin Carousel</h2>
       <hr></hr>
+      <h2>About</h2>
       <About />
+      <h2>Fin About</h2>
       <hr></hr>
+      <h2>Products</h2>
       <Products />
+      <h2>Fin Products</h2>
       <hr></hr>
+      <h2>Article</h2>
       <Article />
+      <h2>Fin Article</h2>
       <hr></hr>
-      <h1>Video</h1>
+      <h2>Video</h2>
       <Video />
+      <h2>Fin Video</h2>
       <hr></hr>
+      <h2>Store</h2>
       <Store />
+      <h2>Fin Store</h2>
       <hr></hr>
+      <h2>Testimonial</h2>
       <Testimonial />
+      <h2>Fin Testimonial</h2>
       <hr></hr>
+      <h2>Contact</h2>
       <Contact />
+      <h2>Fin Contact</h2>
       <hr></hr>
       <Footer />
       <Copyright />
