@@ -21,15 +21,23 @@ export const Products = () => {
         </div>
         <Swiper
           modules={[Navigation, Pagination, Autoplay]}
-          spaceBetween={30}
+          spaceBetween={25}
           slidesPerView={1}
           navigation
           pagination={{ clickable: true }}
-          autoplay={{ delay: 3000 }}
+          autoplay={{ delay: 3000, disableOnInteraction: false }}
+          speed={1000}
           loop={true}
+          centeredSlides={true}
           className="product-carousel"
           data-aos="fade-up"
           data-aos-delay="500"
+          breakpoints={{
+            0: { slidesPerView: 1 },
+            576: { slidesPerView: 1 },
+            768: { slidesPerView: 2 },
+            992: { slidesPerView: 3 },
+          }}
         >
           <SwiperSlide>
             <a href="" className="d-block product-item rounded">
