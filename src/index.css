@@ -255,14 +255,14 @@
   background-size: auto;
 }
 
-.product-carousel .owl-nav {
+.product-carousel .swiper {
   display: flex;
   justify-content: center;
   margin-top: 30px;
 }
 
-.product-carousel .owl-nav .owl-prev,
-.product-carousel .owl-nav .owl-next {
+.product-carousel .swiper-button-prev,
+.product-carousel .swiper-button-next {
   margin: 0 10px;
   width: 55px;
   height: 55px;
@@ -277,10 +277,14 @@
   transition: 0.5s;
 }
 
-.product-carousel .owl-nav .owl-prev:hover,
-.product-carousel .owl-nav .owl-next:hover {
+.product-carousel .swiper-button-prev:hover,
+.product-carousel .swiper-button-next:hover {
   background: #ffffff;
   color: var(--primary);
+}
+.product-carousel .swiper-pagination {
+  margin-top: 30px;
+  position: relative;
 }
 
 /*** About ***/
@@ -438,14 +442,14 @@
   border-radius: 60px;
 }
 
-.testimonial-carousel .owl-dots {
+.testimonial-carousel .swiper-pagination {
   margin-top: 35px;
   display: flex;
   align-items: flex-end;
   justify-content: center;
 }
 
-.testimonial-carousel .owl-dot {
+.testimonial-carousel .swiper-pagination-bullet {
   position: relative;
   display: inline-block;
   margin: 0 5px;
@@ -456,7 +460,7 @@
   transition: 0.5s;
 }
 
-.testimonial-carousel .owl-dot.active {
+.testimonial-carousel .swiper-pagination-bullet-active {
   width: 30px;
   background: var(--dark);
 }
