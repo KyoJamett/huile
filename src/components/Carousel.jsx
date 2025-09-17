@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 export const Carousel = () => {
   return (
     <div className="container-fluid px-0 mb-5">
@@ -13,19 +15,32 @@ export const Carousel = () => {
               <div className="container">
                 <div className="row justify-content-center">
                   <div className="col-lg-7 text-center">
-                    <p className="fs-4 text-white animated zoomIn">
+                    <motion.p
+                      className="fs-4 text-white"
+                      initial={{ opacity: 0, scale: 0.8 }}
+                      animate={{ opacity: 1, scale: 1 }}
+                      transition={{ duration: 0.8 }}
+                    >
                       Welcome to{" "}
                       <strong className="text-dark">TEA House</strong>
-                    </p>
-                    <h1 className="display-1 text-dark mb-4 animated zoomIn">
+                    </motion.p>
+                    <motion.h1
+                      className="display-1 text-dark mb-4"
+                      initial={{ opacity: 0, y: 50 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      transition={{ duration: 1 }}
+                    >
                       Organic & Quality Tea Production
-                    </h1>
-                    <a
+                    </motion.h1>
+                    <motion.a
                       href=""
-                      className="btn btn-light rounded-pill py-3 px-5 animated zoomIn"
+                      className="btn btn-light rounded-pill py-3 px-5"
+                      initial={{ opacity: 0, scale: 0.5 }}
+                      animate={{ opacity: 1, scale: 1 }}
+                      transition={{ duration: 0.5, delay: 0.2 }}
                     >
                       Explore More
-                    </a>
+                    </motion.a>
                   </div>
                 </div>
               </div>
@@ -37,19 +52,32 @@ export const Carousel = () => {
               <div className="container">
                 <div className="row justify-content-center">
                   <div className="col-lg-7 text-center">
-                    <p className="fs-4 text-white animated zoomIn">
+                    <motion.p
+                      className="fs-4 text-white"
+                      initial={{ opacity: 0, scale: 0.8 }}
+                      animate={{ opacity: 1, scale: 1 }}
+                      transition={{ duration: 0.8 }}
+                    >
                       Welcome to{" "}
                       <strong className="text-dark">TEA House</strong>
-                    </p>
-                    <h1 className="display-1 text-dark mb-4 animated zoomIn">
+                    </motion.p>
+                    <motion.h1
+                      className="display-1 text-dark mb-4"
+                      initial={{ opacity: 0, y: 50 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      transition={{ duration: 1 }}
+                    >
                       Organic & Quality Tea Production
-                    </h1>
-                    <a
+                    </motion.h1>
+                    <motion.a
                       href=""
-                      className="btn btn-light rounded-pill py-3 px-5 animated zoomIn"
+                      className="btn btn-light rounded-pill py-3 px-5"
+                      initial={{ opacity: 0, scale: 0.5 }}
+                      animate={{ opacity: 1, scale: 1 }}
+                      transition={{ duration: 0.5, delay: 0.2 }}
                     >
                       Explore More
-                    </a>
+                    </motion.a>
                   </div>
                 </div>
               </div>
