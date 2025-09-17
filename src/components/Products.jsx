@@ -28,7 +28,6 @@ export const Products = () => {
           autoplay={{ delay: 3000, disableOnInteraction: false }}
           speed={1000}
           loop={true}
-          centeredSlides={true}
           className="product-carousel"
           data-aos="fade-up"
           data-aos-delay="500"
