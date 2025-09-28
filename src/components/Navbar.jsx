@@ -1,8 +1,34 @@
+import { useState, useEffect } from "react";
+
 export const Navbar = () => {
+  const [show, setShow] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 300) {
+        setShow(true);
+      } else {
+        setShow(false);
+      }
+    };
+
+    //escuchas el evento scroll
+    window.addEventListener("scroll", handleScroll);
+
+    //quitas el listener cuando el componente se desmonta
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <div className="container-fluid bg-white sticky-top">
       <div className="container">
-        <nav className="navbar navbar-expand-lg bg-white navbar-light py-2 py-lg-0">
+        <nav
+          className={`navbar navbar-expand-lg bg-white navbar-light py-2 py-lg-0 navbar-custom ${
+            show ? "show" : ""
+          }`}
+        >
           <a href="index.html" className="navbar-brand">
             <img className="img-fluid" src="img/logo.png" alt="Logo" />
           </a>

@@ -82,10 +82,10 @@
 }
 
 /*** Navbar ***/
-.sticky-top {
+/* .sticky-top {
   top: -150px;
   transition: 0.5s;
-}
+} */
 
 .navbar .navbar-brand {
   position: absolute;
@@ -154,6 +154,19 @@
     opacity: 1;
   }
 }
+
+/***navbar custom para fade in al hacer scroll***/
+/* .navbar-custom {
+  position: sticky;
+  top: -150px;
+  transition: top 0.5s ease;
+  z-index: 1020;
+}
+
+.navbar-custom.show {
+  top: 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* equivalente a shadow-sm */
+/* } */
 
 /*** Header ***/
 .carousel-caption {
