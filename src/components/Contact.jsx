@@ -1,6 +1,6 @@
 export const Contact = () => {
   return (
-    <div className="container-xxl contact py-5">
+    <div id="contact" className="container-xxl contact py-5">
       <div className="container">
         <div
           className="section-title text-center mx-auto"

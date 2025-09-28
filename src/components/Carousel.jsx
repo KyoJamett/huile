@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 export const Carousel = () => {
   return (
-    <div className="container-fluid px-0 mb-5">
+    <div id="home" className="container-fluid px-0 mb-5">
       <div
         id="header-carousel"
         className="carousel slide carousel-fade"

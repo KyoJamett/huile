@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { HashLink } from "react-router-hash-link";
 
 export const Navbar = () => {
   const [show, setShow] = useState(false);
@@ -29,9 +30,9 @@ export const Navbar = () => {
             show ? "show" : ""
           }`}
         >
-          <a href="index.html" className="navbar-brand">
+          <HashLink smooth to="#home" className="navbar-brand">
             <img className="img-fluid" src="img/logo.png" alt="Logo" />
-          </a>
+          </HashLink>
           <button
             type="button"
             className="navbar-toggler ms-auto me-0"
@@ -42,18 +43,18 @@ export const Navbar = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarCollapse">
             <div className="navbar-nav ms-auto">
-              <a href="index.html" className="nav-item nav-link active">
+              <HashLink className="nav-item nav-link active" smooth to="#home">
                 Home
-              </a>
-              <a href="about.html" className="nav-item nav-link">
+              </HashLink>
+              <HashLink className="nav-item nav-link" smooth to="#about">
                 About
-              </a>
-              <a href="product.html" className="nav-item nav-link">
+              </HashLink>
+              <HashLink className="nav-item nav-link" smooth to="#products">
                 Products
-              </a>
-              <a href="store.html" className="nav-item nav-link">
+              </HashLink>
+              <HashLink className="nav-item nav-link" smooth to="#store">
                 Store
-              </a>
+              </HashLink>
               <div className="nav-item dropdown">
                 <a
                   href="#"
@@ -63,29 +64,29 @@ export const Navbar = () => {
                   Pages
                 </a>
                 <div className="dropdown-menu bg-light rounded-0 m-0">
-                  <a href="feature.html" className="dropdown-item">
+                  <HashLink className="dropdown-item" smooth to="#features">
                     Features
-                  </a>
-                  <a href="blog.html" className="dropdown-item">
+                  </HashLink>
+                  <HashLink className="dropdown-item" smooth to="#article">
                     Blog Article
-                  </a>
-                  <a href="testimonial.html" className="dropdown-item">
+                  </HashLink>
+                  <HashLink className="dropdown-item" smooth to="#testimonial">
                     Testimonial
-                  </a>
-                  <a href="404.html" className="dropdown-item">
+                  </HashLink>
+                  {/* <a href="404.html" className="dropdown-item">
                     404 Page
-                  </a>
+                  </a> */}
                 </div>
               </div>
-              <a href="contact.html" className="nav-item nav-link">
+              <HashLink className="nav-item nav-link" smooth to="#contact">
                 Contact
-              </a>
+              </HashLink>
             </div>
-            <div className="border-start ps-4 d-none d-lg-block">
+            {/* <div className="border-start ps-4 d-none d-lg-block">
               <button type="button" className="btn btn-sm p-0">
                 <i className="fa fa-search"></i>
               </button>
-            </div>
+            </div> */}
           </div>
         </nav>
       </div>

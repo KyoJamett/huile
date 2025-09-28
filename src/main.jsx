@@ -2,12 +2,14 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import App from "./App.jsx";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
-// import "@fortawesome/fontawesome-free/css/all.min.css";
 import "./styles/bootstrap.scss";
 import "./index.css";
+import { HashRouter } from "react-router-dom";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <App />
+    <HashRouter>
+      <App />
+    </HashRouter>
   </StrictMode>
 );

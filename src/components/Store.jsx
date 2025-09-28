@@ -1,6 +1,6 @@
 export const Store = () => {
   return (
-    <div className="container-xxl py-5">
+    <div id="store" className="container-xxl py-5">
       <div className="container">
         <div
           className="section-title text-center mx-auto"

@@ -6,7 +6,7 @@ import "swiper/css/pagination";
 
 export const Products = () => {
   return (
-    <div className="container-fluid product py-5 my-5">
+    <div id="products" className="container-fluid product py-5 my-5">
       <div className="container py-5">
         <div
           className="section-title text-center mx-auto"

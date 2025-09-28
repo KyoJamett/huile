@@ -1,6 +1,6 @@
 export const Video = () => {
   return (
-    <div className="container-fluid video my-5">
+    <div id="features" className="container-fluid video my-5">
       <div className="container">
         <div className="row g-0">
           <div className="col-lg-6 py-5" data-aos="fade" data-aos-delay="100">

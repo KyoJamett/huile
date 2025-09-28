@@ -1,6 +1,6 @@
 export const Article = () => {
   return (
-    <div className="container-xxl py-5">
+    <div id="article" className="container-xxl py-5">
       <div className="container">
         <div className="row g-5">
           <div className="col-lg-5" data-aos="fade" data-aos-delay="100">
