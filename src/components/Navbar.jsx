@@ -30,8 +30,8 @@ export const Navbar = () => {
             show ? "show" : ""
           }`}
         >
-          <HashLink smooth to="#home" className="navbar-brand">
-            <img className="img-fluid" src="img/logo.png" alt="Logo" />
+          <HashLink smooth to="#home" className="navbar-brand logo">
+            <img className="img-fluid" src="img/logo-huile.jpeg" alt="Logo" />
           </HashLink>
           <button
             type="button"
