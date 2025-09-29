@@ -41,9 +41,11 @@ export const About = () => {
           </div>
           <div className="col-lg-6" data-aos="fade" data-aos-delay="500">
             <div className="section-title">
-              <p className="fs-5 fw-medium fst-italic text-primary">About Us</p>
+              <p className="fs-5 fw-medium fst-italic text-primary">
+                Quienes somos
+              </p>
               <h1 className="display-6">
-                The success history of TEA House in 25 years
+                Productos que hidratan, protegen y realzan la belleza natural
               </h1>
             </div>
             <div className="row g-3 mb-4">
@@ -55,20 +57,20 @@ export const About = () => {
                 />
               </div>
               <div className="col-sm-8">
-                <h5>Our tea is one of the most popular drinks in the world</h5>
+                <h5>Producto 100% puro</h5>
                 <p className="mb-0">
-                  Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
-                  Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit
+                  Alto contenido de vitaminas A, E y complejo B, ácidos grasos y
+                  antioxidantes
                 </p>
               </div>
             </div>
             <div className="border-top mb-4"></div>
             <div className="row g-3">
               <div className="col-sm-8">
-                <h5>Daily use of a cup of tea is good for your health</h5>
+                <h5>Uso dermatológico para piel y cabello</h5>
                 <p className="mb-0">
-                  Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
-                  Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit
+                  Efecto hidratante, reparador de la piel y revitaliza cabello
+                  seco, teñido o dañado. Repara puntas partidas y el frizz.
                 </p>
               </div>
               <div className="col-sm-4">

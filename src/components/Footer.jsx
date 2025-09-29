@@ -48,7 +48,7 @@ export const Footer = () => {
               </a>
             </div>
           </div>
-          <div className="col-lg-3 col-md-6">
+          {/* <div className="col-lg-3 col-md-6">
             <h4 className="text-primary mb-4">Quick Links</h4>
             <a className="btn btn-link" href="">
               About Us
@@ -65,7 +65,7 @@ export const Footer = () => {
             <a className="btn btn-link" href="">
               Support
             </a>
-          </div>
+          </div> */}
           <div className="col-lg-3 col-md-6">
             <h4 className="text-primary mb-4">Business Hours</h4>
             <p className="mb-1">Monday - Friday</p>
@@ -75,11 +75,11 @@ export const Footer = () => {
             <p className="mb-1">Sunday</p>
             <h6 className="text-light">Closed</h6>
           </div>
-          <div className="col-lg-3 col-md-6">
+          {/* <div className="col-lg-3 col-md-6">
             <h4 className="text-primary mb-4">Newsletter</h4>
             <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
             <div className="position-relative w-100">
-              {/* <input className="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email"> */}
+              <input className="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
               <button
                 type="button"
                 className="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"
@@ -87,7 +87,7 @@ export const Footer = () => {
                 SignUp
               </button>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

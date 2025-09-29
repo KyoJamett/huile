@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { HashLink } from "react-router-hash-link";
 
 export const Carousel = () => {
   return (
@@ -21,8 +22,8 @@ export const Carousel = () => {
                       animate={{ opacity: 1, scale: 1 }}
                       transition={{ duration: 0.8 }}
                     >
-                      Welcome to{" "}
-                      <strong className="text-dark">TEA House</strong>
+                      Descubre la belleza natural con{" "}
+                      <strong className="text-dark">Palta</strong>
                     </motion.p>
                     <motion.h1
                       className="display-1 text-dark mb-4"
@@ -30,17 +31,18 @@ export const Carousel = () => {
                       animate={{ opacity: 1, y: 0 }}
                       transition={{ duration: 1 }}
                     >
-                      Organic & Quality Tea Production
+                      Tu rutina de belleza, inspirada en la naturaleza
                     </motion.h1>
-                    <motion.a
-                      href=""
+                    <HashLink
+                      smooth
+                      to="#store"
                       className="btn btn-light rounded-pill py-3 px-5"
                       initial={{ opacity: 0, scale: 0.5 }}
                       animate={{ opacity: 1, scale: 1 }}
                       transition={{ duration: 0.5, delay: 0.2 }}
                     >
-                      Explore More
-                    </motion.a>
+                      Ver productos
+                    </HashLink>
                   </div>
                 </div>
               </div>
@@ -58,8 +60,8 @@ export const Carousel = () => {
                       animate={{ opacity: 1, scale: 1 }}
                       transition={{ duration: 0.8 }}
                     >
-                      Welcome to{" "}
-                      <strong className="text-dark">TEA House</strong>
+                      Descubre la belleza natural con{" "}
+                      <strong className="text-dark">Palta</strong>
                     </motion.p>
                     <motion.h1
                       className="display-1 text-dark mb-4"
@@ -67,17 +69,18 @@ export const Carousel = () => {
                       animate={{ opacity: 1, y: 0 }}
                       transition={{ duration: 1 }}
                     >
-                      Organic & Quality Tea Production
+                      Tu rutina de belleza, inspirada en la naturaleza
                     </motion.h1>
-                    <motion.a
-                      href=""
+                    <HashLink
+                      smooth
+                      to="#store"
                       className="btn btn-light rounded-pill py-3 px-5"
                       initial={{ opacity: 0, scale: 0.5 }}
                       animate={{ opacity: 1, scale: 1 }}
                       transition={{ duration: 0.5, delay: 0.2 }}
                     >
-                      Explore More
-                    </motion.a>
+                      Ver productos
+                    </HashLink>
                   </div>
                 </div>
               </div>

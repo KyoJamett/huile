@@ -47,39 +47,42 @@ export const Navbar = () => {
                 Home
               </HashLink>
               <HashLink className="nav-item nav-link" smooth to="#about">
-                About
+                Nosotros
               </HashLink>
-              <HashLink className="nav-item nav-link" smooth to="#products">
-                Products
+              {/* <HashLink className="nav-item nav-link" smooth to="#products">
+                Productos
+              </HashLink> */}
+              <HashLink className="nav-item nav-link" smooth to="#article">
+                La palta
               </HashLink>
               <HashLink className="nav-item nav-link" smooth to="#store">
-                Store
+                Tienda
               </HashLink>
-              <div className="nav-item dropdown">
+              {/* <div className="nav-item dropdown">
                 <a
                   href="#"
                   className="nav-link dropdown-toggle"
                   data-bs-toggle="dropdown"
                 >
-                  Pages
+                  Más
                 </a>
                 <div className="dropdown-menu bg-light rounded-0 m-0">
                   <HashLink className="dropdown-item" smooth to="#features">
                     Features
                   </HashLink>
                   <HashLink className="dropdown-item" smooth to="#article">
-                    Blog Article
+                    Propiedades de la palta
                   </HashLink>
                   <HashLink className="dropdown-item" smooth to="#testimonial">
                     Testimonial
                   </HashLink>
-                  {/* <a href="404.html" className="dropdown-item">
+                  <a href="404.html" className="dropdown-item">
                     404 Page
-                  </a> */}
+                  </a>
                 </div>
-              </div>
+              </div> */}
               <HashLink className="nav-item nav-link" smooth to="#contact">
-                Contact
+                Contacto
               </HashLink>
             </div>
             {/* <div className="border-start ps-4 d-none d-lg-block">

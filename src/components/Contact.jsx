@@ -8,8 +8,8 @@ export const Contact = () => {
           data-aos-delay="100"
           style={{ maxWidth: "500px" }}
         >
-          <p className="fs-5 fw-medium fst-italic text-primary">Contact Us</p>
-          <h1 className="display-6">Contact us right now</h1>
+          <p className="fs-5 fw-medium fst-italic text-primary">Contacto</p>
+          <h1 className="display-6">Comuníquese con nosotros</h1>
         </div>
         <div
           className="row justify-content-center"
@@ -18,10 +18,8 @@ export const Contact = () => {
         >
           <div className="col-lg-8">
             <p className="text-center mb-5">
-              Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat
-              ipsum et lorem et sit, sed stet lorem sit clita duo justo Diam
-              dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat
-              ipsum et lorem et sit, sed stet lorem sit clita duo justo
+              ¿Tienes dudas o quieres más información sobre nuestros productos
+              naturales? Escríbenos y con gusto resolveremos tus dudas.
             </p>
             <div className="row g-5">
               <div

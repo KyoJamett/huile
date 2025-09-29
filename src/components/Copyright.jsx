@@ -6,7 +6,7 @@ export const Copyright = () => {
           <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
             &copy;{" "}
             <a className="fw-medium" href="#">
-              Your Site Name
+              Huile de Beaute
             </a>
             , All Right Reserved.
           </div>

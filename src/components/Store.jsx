@@ -8,8 +8,12 @@ export const Store = () => {
           data-aos-delay="100"
           style={{ maxWidth: "500px" }}
         >
-          <p className="fs-5 fw-medium fst-italic text-primary">Online Store</p>
-          <h1 className="display-6">Want to stay healthy? Choose tea taste</h1>
+          <p className="fs-5 fw-medium fst-italic text-primary">
+            Tienda Online
+          </p>
+          <h1 className="display-6">
+            ¿Cuidado para la piel? Escoge tu producto
+          </h1>
         </div>
         <div className="row g-4">
           <div
@@ -27,7 +31,7 @@ export const Store = () => {
                   <small className="fa fa-star text-primary"></small>
                   <small className="fa fa-star text-primary"></small>
                 </div>
-                <h4 className="mb-3">Nature close tea</h4>
+                <h4 className="mb-3">Huile de Beauté 1 unidad</h4>
                 <p>
                   Aliqu diam amet diam et eos. Clita erat ipsum lorem erat ipsum
                   lorem sit sed
@@ -39,11 +43,11 @@ export const Store = () => {
                   href=""
                   className="btn btn-primary rounded-pill py-2 px-4 m-2"
                 >
-                  More Detail <i className="fa fa-arrow-right ms-2"></i>
+                  Hacer pedido <i className="fa fa-cart-plus ms-2"></i>
                 </a>
-                <a href="" className="btn btn-dark rounded-pill py-2 px-4 m-2">
+                {/* <a href="" className="btn btn-dark rounded-pill py-2 px-4 m-2">
                   Add to Cart <i className="fa fa-cart-plus ms-2"></i>
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
@@ -62,7 +66,7 @@ export const Store = () => {
                   <small className="fa fa-star text-primary"></small>
                   <small className="fa fa-star text-primary"></small>
                 </div>
-                <h4 className="mb-3">Green tea tulsi</h4>
+                <h4 className="mb-3">Huile de Beauté 3 unidades</h4>
                 <p>
                   Aliqu diam amet diam et eos. Clita erat ipsum lorem erat ipsum
                   lorem sit sed
@@ -74,11 +78,11 @@ export const Store = () => {
                   href=""
                   className="btn btn-primary rounded-pill py-2 px-4 m-2"
                 >
-                  More Detail <i className="fa fa-arrow-right ms-2"></i>
+                  Hacer pedido <i className="fa fa-cart-plus ms-2"></i>
                 </a>
-                <a href="" className="btn btn-dark rounded-pill py-2 px-4 m-2">
+                {/* <a href="" className="btn btn-dark rounded-pill py-2 px-4 m-2">
                   Add to Cart <i className="fa fa-cart-plus ms-2"></i>
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
@@ -97,7 +101,7 @@ export const Store = () => {
                   <small className="fa fa-star text-primary"></small>
                   <small className="fa fa-star text-primary"></small>
                 </div>
-                <h4 className="mb-3">Instant tea premix</h4>
+                <h4 className="mb-3">Huile de Beauté 5 unidades</h4>
                 <p>
                   Aliqu diam amet diam et eos. Clita erat ipsum lorem erat ipsum
                   lorem sit sed
@@ -109,15 +113,15 @@ export const Store = () => {
                   href=""
                   className="btn btn-primary rounded-pill py-2 px-4 m-2"
                 >
-                  More Detail <i className="fa fa-arrow-right ms-2"></i>
+                  Hacer pedido <i className="fa fa-cart-plus ms-2"></i>
                 </a>
-                <a href="" className="btn btn-dark rounded-pill py-2 px-4 m-2">
+                {/* <a href="" className="btn btn-dark rounded-pill py-2 px-4 m-2">
                   Add to Cart <i className="fa fa-cart-plus ms-2"></i>
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
-          <div
+          {/* <div
             className="col-12 text-center"
             data-aos="fade-up"
             data-aos-delay="100"
@@ -125,7 +129,7 @@ export const Store = () => {
             <a href="" className="btn btn-primary rounded-pill py-3 px-5">
               View More Products
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
