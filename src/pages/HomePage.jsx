@@ -1,5 +1,6 @@
 import { About } from "../components/About";
 import { Article } from "../components/Article";
+import { BackToTop } from "../components/BackToTop";
 import { Carousel } from "../components/Carousel";
 import { Contact } from "../components/Contact";
 import { Copyright } from "../components/Copyright";
@@ -23,6 +24,7 @@ export const HomePage = () => {
       <Contact />
       <Footer />
       <Copyright />
+      <BackToTop />
     </>
   );
 };
