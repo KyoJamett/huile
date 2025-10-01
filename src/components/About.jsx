@@ -45,7 +45,8 @@ export const About = () => {
                 Quienes somos
               </p>
               <h1 className="display-6">
-                Productos que hidratan, protegen y realzan la belleza natural
+                Ofrecemos productos que hidratan, protegen y realzan la belleza
+                natural
               </h1>
             </div>
             <div className="row g-3 mb-4">

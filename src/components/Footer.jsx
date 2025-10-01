@@ -8,10 +8,10 @@ export const Footer = () => {
       <div className="container py-5">
         <div className="row g-5">
           <div className="col-lg-3 col-md-6">
-            <h4 className="text-primary mb-4">Our Office</h4>
+            <h4 className="text-primary mb-4">Nuestras oficinas</h4>
             <p className="mb-2">
               <i className="fa fa-map-marker-alt text-primary me-3"></i>123
-              Street, New York, USA
+              Street, Viña del Mar, Chile
             </p>
             <p className="mb-2">
               <i className="fa fa-phone-alt text-primary me-3"></i>+012 345
@@ -67,13 +67,13 @@ export const Footer = () => {
             </a>
           </div> */}
           <div className="col-lg-3 col-md-6">
-            <h4 className="text-primary mb-4">Business Hours</h4>
-            <p className="mb-1">Monday - Friday</p>
+            <h4 className="text-primary mb-4">Horario de atención</h4>
+            <p className="mb-1">Lunes - Viernes</p>
             <h6 className="text-light">09:00 am - 07:00 pm</h6>
-            <p className="mb-1">Saturday</p>
+            <p className="mb-1">Sábado</p>
             <h6 className="text-light">09:00 am - 12:00 pm</h6>
-            <p className="mb-1">Sunday</p>
-            <h6 className="text-light">Closed</h6>
+            <p className="mb-1">Domingo</p>
+            <h6 className="text-light">Cerrado</h6>
           </div>
           {/* <div className="col-lg-3 col-md-6">
             <h4 className="text-primary mb-4">Newsletter</h4>

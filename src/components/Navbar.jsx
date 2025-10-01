@@ -44,7 +44,7 @@ export const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarCollapse">
             <div className="navbar-nav ms-auto">
               <HashLink className="nav-item nav-link active" smooth to="#home">
-                Home
+                Inicio
               </HashLink>
               <HashLink className="nav-item nav-link" smooth to="#about">
                 Nosotros

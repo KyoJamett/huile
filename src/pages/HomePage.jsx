@@ -16,11 +16,15 @@ export const HomePage = () => {
     <>
       <Navbar />
       <Carousel />
+      <hr></hr>
       <About />
       {/* <Products /> */}
+      <hr></hr>
       <Article />
       {/* <Video /> */}
+      <hr></hr>
       <Store />
+      <hr></hr>
       <Contact />
       <Footer />
       <Copyright />
