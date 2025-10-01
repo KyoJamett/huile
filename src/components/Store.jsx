@@ -40,7 +40,9 @@ export const Store = () => {
               </div>
               <div className="store-overlay">
                 <a
-                  href=""
+                  href="https://wa.me/967694921?text=Hola, deseo comprar Huile de Beauté 1 unidad por favor"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="btn btn-primary rounded-pill py-2 px-4 m-2"
                 >
                   Hacer pedido <i className="fa fa-cart-plus ms-2"></i>
@@ -75,7 +77,9 @@ export const Store = () => {
               </div>
               <div className="store-overlay">
                 <a
-                  href=""
+                  href="https://wa.me/967694921?text=Hola, deseo comprar Huile de Beauté 3 unidades por favor"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="btn btn-primary rounded-pill py-2 px-4 m-2"
                 >
                   Hacer pedido <i className="fa fa-cart-plus ms-2"></i>
@@ -110,7 +114,9 @@ export const Store = () => {
               </div>
               <div className="store-overlay">
                 <a
-                  href=""
+                  href="https://wa.me/967694921?text=Hola, deseo comprar Huile de Beauté 5 unidades por favor"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="btn btn-primary rounded-pill py-2 px-4 m-2"
                 >
                   Hacer pedido <i className="fa fa-cart-plus ms-2"></i>

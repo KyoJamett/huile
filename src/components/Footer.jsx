@@ -21,7 +21,7 @@ export const Footer = () => {
               <i className="fa fa-envelope text-primary me-3"></i>
               info@example.com
             </p>
-            <div className="d-flex pt-3">
+            {/* <div className="d-flex pt-3">
               <a
                 className="btn btn-square btn-primary rounded-circle me-2"
                 href=""
@@ -46,7 +46,7 @@ export const Footer = () => {
               >
                 <i className="fab fa-linkedin-in"></i>
               </a>
-            </div>
+            </div> */}
           </div>
           {/* <div className="col-lg-3 col-md-6">
             <h4 className="text-primary mb-4">Quick Links</h4>
