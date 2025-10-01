@@ -10,14 +10,14 @@ export const About = () => {
                   className="img-fluid bg-white w-100"
                   data-aos="fade"
                   data-aos-delay="100"
-                  src="img/about-1.jpg"
+                  src="img/about-1-huile.jpeg"
                   alt=""
                 />
                 <img
                   className="img-fluid bg-white w-50"
                   data-aos="fade"
                   data-aos-delay="200"
-                  src="img/about-3.jpg"
+                  src="img/about-3-huile.jpeg"
                   alt=""
                 />
               </div>
@@ -26,14 +26,14 @@ export const About = () => {
                   className="img-fluid bg-white w-50 mb-3"
                   data-aos="fade"
                   data-aos-delay="300"
-                  src="img/about-4.jpg"
+                  src="img/about-4-huile.jpeg"
                   alt=""
                 />
                 <img
                   className="img-fluid bg-white w-100"
                   data-aos="fade"
                   data-aos-delay="400"
-                  src="img/about-2.jpg"
+                  src="img/about-2-huile.jpg"
                   alt=""
                 />
               </div>
@@ -52,7 +52,7 @@ export const About = () => {
               <div className="col-sm-4">
                 <img
                   className="img-fluid bg-white w-100"
-                  src="img/about-5.jpg"
+                  src="img/about-5-huile.jpg"
                   alt=""
                 />
               </div>
@@ -76,7 +76,7 @@ export const About = () => {
               <div className="col-sm-4">
                 <img
                   className="img-fluid bg-white w-100"
-                  src="img/about-6.jpg"
+                  src="img/about-6-huile.jpeg"
                   alt=""
                 />
               </div>

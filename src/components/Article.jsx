@@ -4,7 +4,7 @@ export const Article = () => {
       <div className="container">
         <div className="row g-5">
           <div className="col-lg-5" data-aos="fade" data-aos-delay="100">
-            <img className="img-fluid" src="img/article.jpg" alt="" />
+            <img className="img-fluid" src="img/article-huile.png" alt="" />
           </div>
           <div className="col-lg-6" data-aos="fade" data-aos-delay="500">
             <div className="section-title">

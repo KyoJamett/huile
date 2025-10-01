@@ -11,7 +11,7 @@ export const Carousel = () => {
       >
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img className="w-100" src="img/carousel-1.jpg" alt="Image" />
+            <img className="w-100" src="img/carousel-1-huile.jpg" alt="Image" />
             <div className="carousel-caption">
               <div className="container">
                 <div className="row justify-content-center">
@@ -23,7 +23,7 @@ export const Carousel = () => {
                       transition={{ duration: 0.8 }}
                     >
                       Descubre la belleza natural con{" "}
-                      <strong className="text-dark">Palta</strong>
+                      <strong className="text-dark">Huile de Beauté</strong>
                     </motion.p>
                     <motion.h1
                       className="display-1 text-dark mb-4"
@@ -49,7 +49,7 @@ export const Carousel = () => {
             </div>
           </div>
           <div className="carousel-item">
-            <img className="w-100" src="img/carousel-2.jpg" alt="Image" />
+            <img className="w-100" src="img/carousel-2-huile.jpg" alt="Image" />
             <div className="carousel-caption">
               <div className="container">
                 <div className="row justify-content-center">
@@ -61,7 +61,7 @@ export const Carousel = () => {
                       transition={{ duration: 0.8 }}
                     >
                       Descubre la belleza natural con{" "}
-                      <strong className="text-dark">Palta</strong>
+                      <strong className="text-dark">Huile de Beauté</strong>
                     </motion.p>
                     <motion.h1
                       className="display-1 text-dark mb-4"
