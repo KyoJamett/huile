@@ -17,7 +17,7 @@ export const About = () => {
                   className="img-fluid bg-white w-50"
                   data-aos="fade"
                   data-aos-delay="200"
-                  src="img/about-3-huile.jpeg"
+                  src="img/about-3-huile.jpg"
                   alt=""
                 />
               </div>
@@ -33,7 +33,7 @@ export const About = () => {
                   className="img-fluid bg-white w-100"
                   data-aos="fade"
                   data-aos-delay="400"
-                  src="img/about-2-huile.jpg"
+                  src="img/about-2-huile.jpeg"
                   alt=""
                 />
               </div>
