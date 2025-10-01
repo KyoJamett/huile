@@ -22,7 +22,7 @@ export const Carousel = () => {
                       animate={{ opacity: 1, scale: 1 }}
                       transition={{ duration: 0.8 }}
                     >
-                      Descubre la belleza natural con{" "}
+                      Belleza natural con{" "}
                       <strong className="text-dark">Huile de Beauté</strong>
                     </motion.p>
                     <motion.h1
@@ -60,7 +60,7 @@ export const Carousel = () => {
                       animate={{ opacity: 1, scale: 1 }}
                       transition={{ duration: 0.8 }}
                     >
-                      Descubre la belleza natural con{" "}
+                      Belleza natural con{" "}
                       <strong className="text-dark">Huile de Beauté</strong>
                     </motion.p>
                     <motion.h1
