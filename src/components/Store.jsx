@@ -22,7 +22,11 @@ export const Store = () => {
             data-aos-delay="100"
           >
             <div className="store-item position-relative text-center">
-              <img className="img-fluid" src="img/store-product-1.jpg" alt="" />
+              <img
+                className="img-fluid"
+                src="img/store-product-huile.jpeg"
+                alt=""
+              />
               <div className="p-4">
                 <div className="text-center mb-3">
                   <small className="fa fa-star text-primary"></small>
@@ -59,7 +63,11 @@ export const Store = () => {
             data-aos-delay="300"
           >
             <div className="store-item position-relative text-center">
-              <img className="img-fluid" src="img/store-product-2.jpg" alt="" />
+              <img
+                className="img-fluid"
+                src="img/store-product-huile.jpeg"
+                alt=""
+              />
               <div className="p-4">
                 <div className="text-center mb-3">
                   <small className="fa fa-star text-primary"></small>
@@ -96,7 +104,11 @@ export const Store = () => {
             data-aos-delay="500"
           >
             <div className="store-item position-relative text-center">
-              <img className="img-fluid" src="img/store-product-3.jpg" alt="" />
+              <img
+                className="img-fluid"
+                src="img/store-product-huile.jpeg"
+                alt=""
+              />
               <div className="p-4">
                 <div className="text-center mb-3">
                   <small className="fa fa-star text-primary"></small>
