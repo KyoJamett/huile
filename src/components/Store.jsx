@@ -78,8 +78,8 @@ export const Store = () => {
                 </div>
                 <h4 className="mb-3">Huile de Beauté 3 unidades</h4>
                 <p>
-                  Aliqu diam amet diam et eos. Clita erat ipsum lorem erat ipsum
-                  lorem sit sed
+                  Cosmético Natural. Uso dermatológico para aplicar en piel y
+                  cabello.
                 </p>
                 <h4 className="text-primary">$19.00</h4>
               </div>
@@ -119,8 +119,8 @@ export const Store = () => {
                 </div>
                 <h4 className="mb-3">Huile de Beauté 5 unidades</h4>
                 <p>
-                  Aliqu diam amet diam et eos. Clita erat ipsum lorem erat ipsum
-                  lorem sit sed
+                  Cosmético Natural. Uso dermatológico para aplicar en piel y
+                  cabello.
                 </p>
                 <h4 className="text-primary">$19.00</h4>
               </div>
