@@ -39,9 +39,9 @@ export const Contact = () => {
                 data-aos-delay="400"
               >
                 <div className="btn-square mx-auto mb-3">
-                  <i className="fa fa-phone fa-2x text-white"></i>
+                  <i className="bi bi-whatsapp fa-2x text-white"></i>
                 </div>
-                <p className="mb-2">+569-59421991</p>
+                <p className="mb-2">+569 - 59421991</p>
                 {/* <p className="mb-0">+012 345 67890</p> */}
               </div>
               {/* <div

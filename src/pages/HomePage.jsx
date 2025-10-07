@@ -5,6 +5,7 @@ import { Carousel } from "../components/Carousel";
 import { Contact } from "../components/Contact";
 import { Copyright } from "../components/Copyright";
 import { Footer } from "../components/Footer";
+import { HowToUse } from "../components/HowToUse";
 import { Navbar } from "../components/Navbar";
 import { Products } from "../components/Products";
 import { Store } from "../components/Store";
@@ -16,13 +17,12 @@ export const HomePage = () => {
     <>
       <Navbar />
       <Carousel />
-      <hr></hr>
       <About />
       {/* <Products /> */}
       <hr></hr>
       <Article />
       {/* <Video /> */}
-      <hr></hr>
+      <HowToUse />
       <Store />
       <hr></hr>
       <Contact />

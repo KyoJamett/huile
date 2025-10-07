@@ -553,3 +553,53 @@
   object-fit: cover; /* cubre sin deformar */
   display: block;
 }
+
+/***section How to Use***/
+/*** About ***/
+.how-to-use {
+  background: linear-gradient(
+      rgba(136, 180, 78, 0.85),
+      rgba(136, 180, 78, 0.85)
+    ),
+    url(/img/carousel-1-huile.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.section-how {
+  position: relative;
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+.section-how::before {
+  position: absolute;
+  content: "";
+  width: 50%;
+  height: 2px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--primary);
+}
+
+.section-how::after {
+  position: absolute;
+  content: "";
+  width: 28px;
+  height: 28px;
+  bottom: -13px;
+  left: 50%;
+  transform: translateX(-50);
+  background: var(--dark);
+  border: 10px solid #ffffff;
+  border-radius: 28px;
+}
+
+.section-how.text-center::before {
+  left: 25%;
+}
+
+.section-how.text-center::after {
+  left: calc(50% - 13px);
+}
