@@ -30,8 +30,8 @@ export const Contact = () => {
                 <div className="btn-square mx-auto mb-3">
                   <i className="fa fa-envelope fa-2x text-white"></i>
                 </div>
-                <p className="mb-2">info@example.com</p>
-                <p className="mb-0">support@example.com</p>
+                <p className="mb-2">hdbproductos@gmail.com</p>
+                {/* <p className="mb-0">support@example.com</p> */}
               </div>
               <div
                 className="col-md-4 text-center"
@@ -41,10 +41,10 @@ export const Contact = () => {
                 <div className="btn-square mx-auto mb-3">
                   <i className="fa fa-phone fa-2x text-white"></i>
                 </div>
-                <p className="mb-2">+012 345 67890</p>
-                <p className="mb-0">+012 345 67890</p>
+                <p className="mb-2">+569-59421991</p>
+                {/* <p className="mb-0">+012 345 67890</p> */}
               </div>
-              <div
+              {/* <div
                 className="col-md-4 text-center"
                 data-aos="fade-up"
                 data-aos-delay="500"
@@ -54,7 +54,7 @@ export const Contact = () => {
                 </div>
                 <p className="mb-2">123 Street</p>
                 <p className="mb-0">New York, USA</p>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

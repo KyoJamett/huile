@@ -8,18 +8,18 @@ export const Footer = () => {
       <div className="container py-5">
         <div className="row g-5">
           <div className="col-lg-3 col-md-6">
-            <h4 className="text-primary mb-4">Nuestras oficinas</h4>
-            <p className="mb-2">
+            <h4 className="text-primary mb-4">Huile de Beauté</h4>
+            {/* <p className="mb-2">
               <i className="fa fa-map-marker-alt text-primary me-3"></i>123
               Street, Viña del Mar, Chile
-            </p>
+            </p> */}
             <p className="mb-2">
-              <i className="fa fa-phone-alt text-primary me-3"></i>+012 345
-              67890
+              <i className="fa fa-phone-alt text-primary me-3"></i>+569 -
+              59421991
             </p>
             <p className="mb-2">
               <i className="fa fa-envelope text-primary me-3"></i>
-              info@example.com
+              hdbproductos@gmail.com
             </p>
             {/* <div className="d-flex pt-3">
               <a
@@ -66,7 +66,7 @@ export const Footer = () => {
               Support
             </a>
           </div> */}
-          <div className="col-lg-3 col-md-6">
+          {/* <div className="col-lg-3 col-md-6">
             <h4 className="text-primary mb-4">Horario de atención</h4>
             <p className="mb-1">Lunes - Viernes</p>
             <h6 className="text-light">09:00 am - 07:00 pm</h6>
@@ -74,7 +74,7 @@ export const Footer = () => {
             <h6 className="text-light">09:00 am - 12:00 pm</h6>
             <p className="mb-1">Domingo</p>
             <h6 className="text-light">Cerrado</h6>
-          </div>
+          </div> */}
           {/* <div className="col-lg-3 col-md-6">
             <h4 className="text-primary mb-4">Newsletter</h4>
             <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
