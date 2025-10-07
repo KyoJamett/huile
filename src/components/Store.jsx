@@ -40,7 +40,7 @@ export const Store = () => {
                   Cosmético Natural. Uso dermatológico para aplicar en piel y
                   cabello.
                 </p>
-                <h4 className="text-primary">$19.00</h4>
+                <h4 className="text-primary">$15.000</h4>
               </div>
               <div className="store-overlay">
                 <a
@@ -65,7 +65,7 @@ export const Store = () => {
             <div className="store-item position-relative text-center">
               <img
                 className="img-fluid"
-                src="img/store-product-huile.jpeg"
+                src="img/store-product-huile-3.jpeg"
                 alt=""
               />
               <div className="p-4">
@@ -81,7 +81,7 @@ export const Store = () => {
                   Cosmético Natural. Uso dermatológico para aplicar en piel y
                   cabello.
                 </p>
-                <h4 className="text-primary">$19.00</h4>
+                <h4 className="text-primary">$20.000</h4>
               </div>
               <div className="store-overlay">
                 <a
@@ -98,7 +98,7 @@ export const Store = () => {
               </div>
             </div>
           </div>
-          <div
+          {/* <div
             className="col-lg-4 col-md-6"
             data-aos="fade-up"
             data-aos-delay="500"
@@ -133,12 +133,12 @@ export const Store = () => {
                 >
                   Hacer pedido <i className="fa fa-cart-plus ms-2"></i>
                 </a>
-                {/* <a href="" className="btn btn-dark rounded-pill py-2 px-4 m-2">
+                <a href="" className="btn btn-dark rounded-pill py-2 px-4 m-2">
                   Add to Cart <i className="fa fa-cart-plus ms-2"></i>
-                </a> */}
+                </a>
               </div>
             </div>
-          </div>
+          </div> */}
           {/* <div
             className="col-12 text-center"
             data-aos="fade-up"
