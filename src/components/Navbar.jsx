@@ -55,6 +55,9 @@ export const Navbar = () => {
               <HashLink className="nav-item nav-link" smooth to="#article">
                 La palta
               </HashLink>
+              <HashLink className="nav-item nav-link" smooth to="#how-to-use">
+                Modo de uso
+              </HashLink>
               <HashLink className="nav-item nav-link" smooth to="#store">
                 Tienda
               </HashLink>

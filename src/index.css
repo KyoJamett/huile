@@ -603,3 +603,14 @@
 .section-how.text-center::after {
   left: calc(50% - 13px);
 }
+
+/***lista de HowToUse***/
+.list-group {
+  background-color: transparent;
+}
+
+.list-group-item {
+  background-color: inherit;
+  border: none;
+  border-bottom: 1px solid #eeeeee;
+}
