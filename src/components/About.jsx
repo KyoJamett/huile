@@ -7,7 +7,7 @@ export const About = () => {
             <div className="row g-3">
               <div className="col-6 text-end">
                 <img
-                  className="img-fluid bg-white w-100"
+                  className="img-fluid bg-white w-100 mb-3"
                   data-aos="fade"
                   data-aos-delay="100"
                   src="img/about-1-huile.jpeg"
