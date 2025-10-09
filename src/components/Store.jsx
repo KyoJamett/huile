@@ -76,7 +76,7 @@ export const Store = () => {
                   <small className="fa fa-star text-primary"></small>
                   <small className="fa fa-star text-primary"></small>
                 </div>
-                <h4 className="mb-3">Huile de Beauté 3 unidades</h4>
+                <h4 className="mb-3">Huile de Beauté 2 unidades</h4>
                 <p>
                   Cosmético Natural. Uso dermatológico para aplicar en piel y
                   cabello.

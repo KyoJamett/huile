@@ -21,10 +21,7 @@ export const HowToUse = () => {
                 especial atención a las cutículas y zonas resecas.
               </li>
               <li class="list-group-item">
-                Para un tratamiento más profundo, utiliza una capa generosa
-                antes de dormir y cubre las manos con guantes de algodón durante
-                20 a 30 minutos o toda la noche. La piel quedará suave, nutrida
-                y visiblemente más tersa.
+                Dejar actuar entre 30 minutos y 2 horas y luego enjuagar.
               </li>
             </ol>
             <img
