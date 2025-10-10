@@ -9,7 +9,7 @@ export const HowToUse = () => {
         </div>
         <div className="row g-5">
           <div className="col-lg-6" data-aos="fade" data-aos-delay="100">
-            <h2>Aplicación en manos</h2>
+            <h2>Aplicación en piel</h2>
             <ol class="list-group list-group-numbered mb-4">
               <li class="list-group-item">
                 Aplica una pequeña cantidad de{" "}
@@ -21,7 +21,11 @@ export const HowToUse = () => {
                 especial atención a las cutículas y zonas resecas.
               </li>
               <li class="list-group-item">
-                Dejar actuar entre 30 minutos y 2 horas y luego enjuagar.
+                Dejar actuar entre 30 minutos a 2 horas y luego enjuagar.
+              </li>
+              <li class="list-group-item">
+                Luego de 24 hrs, si no presenta reacción adversa o alergia en
+                manos. Se puede aplicar en resto de piel, incluso facial.
               </li>
             </ol>
             <img
